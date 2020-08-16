@@ -24,3 +24,9 @@
 |[uniqid](https://www.php.net/manual/en/function.uniqid.php)|Gets a prefixed unique identifier based on the current time in microseconds.|
 |[floor](https://www.php.net/manual/en/function.floor.php)|Returns the next lowest integer value (as float) by rounding down value if necessary.|
 |[ceil](https://www.php.net/manual/en/function.ceil.php)|Returns the next highest integer value by rounding up value if necessary.|
+
+## Array Functions
+| Function | Description |
+| --- | ----------- |
+|[array_unique](https://www.php.net/manual/en/function.array-unique.php)|Takes an input array and returns a new array without duplicate values.Note that keys are preserved. If multiple elements compare equal under the given sort_flags, then the key and value of the first equal element will be retained.|
+|[array_slice](https://www.php.net/manual/en/function.array-slice.php)|Extract a slice of the array. Returns the sequence of elements from the array array as specified by the offset and length parameters.|
