@@ -17,7 +17,7 @@
 |[max](https://www.php.net/manual/en/function.max.php)|If the first and only parameter is an array, max() returns the highest value in that array. If at least two parameters are provided, max() returns the biggest of these values.|
 |[min](https://www.php.net/manual/en/function.min.php)|If the first and only parameter is an array, min() returns the lowest value in that array. If at least two parameters are provided, min() returns the smallest of these values.|
 |[preg_split](https://www.php.net/manual/en/function.preg-split.php)|Split the given string by a regular expression.|
-|gettype(https://www.php.net/manual/en/function.gettype.php)|Returns the type of the PHP variable var. For type checking, use is_* functions.|
+|[gettype](https://www.php.net/manual/en/function.gettype.php)|Returns the type of the PHP variable var. For type checking, use is_* functions.|
 |[ini_get](https://www.php.net/manual/en/function.ini-get.php)|Returns the value of the configuration option on success|
 |[ini_set](https://www.php.net/manual/en/function.ini-set.php)|Sets the value of the given configuration option. The configuration option will keep this new value during the script's execution, and will be restored at the script's ending.|
 |[ksort](https://www.php.net/manual/en/function.ksort.php)|Sorts an array by key, maintaining key to data correlations. This is useful mainly for associative arrays.|
