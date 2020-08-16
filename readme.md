@@ -30,3 +30,11 @@
 | --- | ----------- |
 |[array_unique](https://www.php.net/manual/en/function.array-unique.php)|Takes an input array and returns a new array without duplicate values.Note that keys are preserved. If multiple elements compare equal under the given sort_flags, then the key and value of the first equal element will be retained.|
 |[array_slice](https://www.php.net/manual/en/function.array-slice.php)|Extract a slice of the array. Returns the sequence of elements from the array array as specified by the offset and length parameters.|
+|[array_diff](https://www.php.net/manual/en/function.array-diff.php)|Compares array1 against one or more other arrays and returns the values in array1 that are not present in any of the other arrays.|
+|[array_search](https://www.php.net/manual/en/function.array-search.php)|Searches the array for a given value and returns the first corresponding key if successful|
+|[array_reverse](https://www.php.net/manual/en/function.array-reverse.php)|Return an array with elements in reverse order|
+|[array_unshift](https://www.php.net/manual/en/function.array-unshift.php)|array_unshift() prepends passed elements to the front of the array. Note that the list of elements is prepended as a whole, so that the prepended elements stay in the same order. All numerical array keys will be modified to start counting from zero while literal keys won't be changed.|
+|[in_array](https://www.php.net/manual/en/function.in-array.php)|Checks if a value exists in an array|
+|[array_merge](https://www.php.net/manual/en/function.array-merge.php)|Merges the elements of one or more arrays together so that the values of one are appended to the end of the previous one. It returns the resulting array.|
+|[array_keys](https://www.php.net/manual/en/function.array-keys.php)|returns the keys, numeric and string, from the array.|
+|[array_key_exists](https://www.php.net/manual/en/function.array-key-exists.php)|array_key_exists() returns TRUE if the given key is set in the array. key can be any value possible for an array index.|
