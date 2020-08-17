@@ -38,3 +38,18 @@
 |[array_merge](https://www.php.net/manual/en/function.array-merge.php)|Merges the elements of one or more arrays together so that the values of one are appended to the end of the previous one. It returns the resulting array.|
 |[array_keys](https://www.php.net/manual/en/function.array-keys.php)|returns the keys, numeric and string, from the array.|
 |[array_key_exists](https://www.php.net/manual/en/function.array-key-exists.php)|array_key_exists() returns TRUE if the given key is set in the array. key can be any value possible for an array index.|
+|[array_shift](https://www.php.net/manual/en/function.array-shift.php)|Shift an element off the beginning of array|
+|[array_push](https://www.php.net/manual/en/function.array-push.php)|Push one or more elements onto the end of array|
+|[array_pop](https://www.php.net/manual/en/function.array-pop.php)|Pop the element off the end of array|
+|[array_values](https://www.php.net/manual/en/function.array-values.php)|Returns all the values from the array and indexes the array numerically.|
+|[array_map](https://www.php.net/manual/en/function.array-map.php)|Returns an array containing the results of applying the callback function to the corresponding index of array|
+|[array_change_key_case](https://www.php.net/manual/en/function.array-change-key-case.php)|Returns an array with all keys from array lowercased or uppercased. Numbered indices are left as is.|
+|[array_chunk](https://www.php.net/manual/en/function.array-chunk.php)|Chunks an array into arrays with size elements. The last chunk may contain less than size elements.|
+|[array_column](https://www.php.net/manual/en/function.array-column.php)|Returns the values from a single column of the input, identified by the column_key.|
+|[array_combine](https://www.php.net/manual/en/function.array-combine.php)|Creates an array by using the values from the keys array as keys and the values from the values array as the corresponding values.|
+|[array_count_values](https://www.php.net/manual/en/function.array-count-values.php)|returns an array using the values of array as keys and their frequency in array as values.|
+|[array_diff_assoc](https://www.php.net/manual/en/function.array-diff-assoc.php)|Compares array1 against array2 and returns the difference. Unlike array_diff() the array keys are also used in the comparison.|
+|[array_diff_key](https://www.php.net/manual/en/function.array-diff-key.php)|Compares the keys from array1 against the keys from array2 and returns the difference. This function is like array_diff() except the comparison is done on the keys instead of the values.|
+|[array_intersect](https://www.php.net/manual/en/function.array-intersect.php)|array_intersect() returns an array containing all the values of array1 that are present in all the arguments. Note that keys are preserved.|
+|[array_intersect_key](https://www.php.net/manual/en/function.array-intersect-key.php)|array_intersect_key() returns an array containing all the entries of array1 which have keys that are present in all the arguments.|
+|[array_walk](https://www.php.net/manual/en/function.array-walk.php)|Applies the user-defined callback function to each element of the array array.|
