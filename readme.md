@@ -53,3 +53,19 @@
 |[array_intersect](https://www.php.net/manual/en/function.array-intersect.php)|array_intersect() returns an array containing all the values of array1 that are present in all the arguments. Note that keys are preserved.|
 |[array_intersect_key](https://www.php.net/manual/en/function.array-intersect-key.php)|array_intersect_key() returns an array containing all the entries of array1 which have keys that are present in all the arguments.|
 |[array_walk](https://www.php.net/manual/en/function.array-walk.php)|Applies the user-defined callback function to each element of the array array.|
+
+## Check Type
+| Function | Description |
+| --- | ----------- |
+|[is_array](https://www.php.net/manual/en/function.is-array.php)|Finds whether the given variable is an array.|
+|[is_bool](https://www.php.net/manual/en/function.is-bool.php)|Finds whether the given variable is a boolean.|
+|[is_string](https://www.php.net/manual/en/function.is-string.php)|Finds whether the type of the given variable is string.|
+|[is_object](https://www.php.net/manual/en/function.is-object.php)|Finds whether the given variable is an object.|
+|[is_null](https://www.php.net/manual/en/function.is-null.php)|Finds whether the given variable is NULL.|
+|[is_numeric](https://www.php.net/manual/en/function.is-numeric.php)|Finds whether the given variable is numeric. Numeric strings consist of optional whitespace, optional sign, any number of digits, optional decimal part and optional exponential part.|
+|[is_dir](https://www.php.net/manual/en/function.is-dir.php)|Tells whether the given filename is a directory.|
+|[is_int](https://www.php.net/manual/en/function.is-int.php)|Finds whether the type of the given variable is integer.|
+|[is_file](https://www.php.net/manual/en/function.is-file.php)|Tells whether the given file is a regular file.|
+|[is_callable](https://www.php.net/manual/en/function.is-callable.php)|Verify that the contents of a variable can be called as a function. This can check that a simple variable contains the name of a valid function, or that an array contains a properly encoded object and function name.|
+|[is_uploaded_file](https://www.php.net/manual/en/function.is-uploaded-file)|Returns TRUE if the file named by filename was uploaded via HTTP POST. |
+|[gettype](https://www.php.net/manual/en/function.gettype.php)|Returns the type of the PHP variable var. For type checking, use is_* functions.|
